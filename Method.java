@@ -35,7 +35,7 @@ public class Method {
         if (e % i == 0 && d % i == 0)
         FBP = i;
       }
-      return FBP;
+      return FPB;
     }
   
     public static void main(String[] args)
