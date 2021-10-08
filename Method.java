@@ -15,7 +15,7 @@ public class Method {
     static void productFraction(int e1, int d1, int e2, int d2)
     {
       int ep = e1 * e2, dp = d1 * d2;
-      int pmbagi = FPB, dp);
+      int pmbagi = FPB(ep, dp);
       ep = ep / pmbagi;
       dp = dp / pmbagi;
       printFraction(ep, dp);
@@ -33,7 +33,7 @@ public class Method {
       int FPB = 1;
       for (int i = 1; i <= e && i <= d; i++) {
         if (e % i == 0 && d % i == 0)
-        FBP = i;
+        FPB = i;
       }
       return FPB;
     }
